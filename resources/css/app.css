@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+:root {
+    --font-sans: 'poppins', sans-serif;
+    /* --font-serif: 'Instrument Serif', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+    --font-mono: 'Instrument Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+        'Courier New', monospace; */
+}
+
