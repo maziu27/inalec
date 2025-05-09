@@ -6,7 +6,7 @@
         <div class="w-full min-h-screen overflow-y-auto flex flex-col items-center justify-start bg-cover bg-center text-white font-bold px-4 py-10 space-y-16"
             style="background-image: url('{{ asset('images/imagenesInalec/Inalec 2012 1920x1080.jpg') }}'); background-attachment: fixed; background-size: cover;">
 
-            <h1 class=" text-center text-7xl mt-90 mb-20" data-aos="zoom-in">Bienvenidos a Inalec S.L</h1>
+            <h1 class=" text-center sm:text-4xl text-7xl mt-90 mb-20" data-aos="zoom-in">Bienvenidos a Inalec S.L</h1>
             <h2 class="text-center text-2xl" data-aos="zoom-in">Fiabilidad, Compromiso y Seguridad</h2>
 
             <div class="max-w-4xl text-xl text-justify mt-60 space-y-10">

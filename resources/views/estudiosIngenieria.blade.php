@@ -38,7 +38,7 @@
                     </a>
                 </h3>
                 <p class="text-sm text-gray-600 mb-4">
-                    En INALEC, estamos comprometidos con impulsar la transición energética en el sector industrial, ofreciendo soluciones innovadoras que combinan eficiencia, sostenibilidad y fiabilidad. 
+                    En INALEC, nos comprometemos con impulsar la transición energética en el sector industrial, ofreciendo soluciones que combinan eficiencia, sostenibilidad y fiabilidad. 
                 </p>
                 <a href="{{ route('estudio-fotovoltaico')}}"
                     class="inline-block bg-[rgb(0,176,243)] hover:bg-sky-600 text-white text-sm font-semibold py-2 px-5 rounded-full transition">
@@ -54,7 +54,7 @@
                 class="w-full h-60 object-cover mb-4 rounded-t-2xl">
 
             <div class="px-6 pb-6">
-                <h3 class="text-lg font-bold text-sky-700 mb-1 hover:underline transition">
+                <h3 class="text-lg font-bold text-sky-700 mb-8 hover:underline transition">
                     <a href="{{ route('logica-control-esfera') }}">Lógica de Control para la Operación de Compresores de Almacenamiento en Esferas de Gas
                     </a>
                 </h3>
@@ -69,18 +69,18 @@
         </div>
 
         {{-- proyecto 4 --}}
-        <div
-            class="max-w-sm w-80 text-center mb-10 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
+        <div class="max-w-sm w-80 text-center mb-10 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
             <img src="{{ asset('images/imagenesproyectos/bioenergia-san-roque.jpg') }}" alt="revamping planta cepsa"
                 class="w-full h-60 object-cover mb-4 rounded-t-2xl">
-
+        
             <div class="px-6 pb-6">
-                <h3 class="text-lg font-bold text-sky-700 mb-1 hover:underline transition pb-3">
-                    <a href="{{ route('logica-control-esfera') }}">Requisición de montaje para mejoras en el alumbrado en Bioenergía San Roque, Atlas Ceuta y CEPSA Alcalá de Henares
+                <h3 class="text-lg font-bold text-sky-700 mb-1 hover:underline transition">
+                    <a href="{{ route('logica-control-esfera') }}">
+                        Requisición de montaje para mejoras en el alumbrado en Bioenergía San Roque, Atlas Ceuta y CEPSA Alcalá de Henares
                     </a>
                 </h3>
-                <p class="text-sm text-gray-600 mb-4">
-                    Lógica de actuación independiente para cinco compresores, gobernados por las señales de tres transmisores de nivel de alta, 
+                <p class="text-sm text-gray-600 mb-4 pb-5">
+                    Abordamos las requisiciones de montaje para las mejoras de alumbrado en las plantas de Bioenergía San Roque, Atlas Ceuta y CEPSA Alcalá de Henares.
                 </p>
                 <a href="{{ route('logica-control-esfera') }}"
                     class="inline-block bg-[rgb(0,176,243)] hover:bg-sky-600 text-white text-sm font-semibold py-2 px-5 rounded-full transition">
@@ -88,6 +88,7 @@
                 </a>
             </div>
         </div>
+        
     </div>
 
     <!-- Contenedor para los botones de navegación -->
