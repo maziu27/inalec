@@ -9,7 +9,7 @@
             </a>
             <a href="https://www.linkedin.com/in/matthew-farrell-927307209/" target="_blank"
                 class="text-xs md:text-sm text-white underline">
-                Realizado por Matthew Farrell Rovira con Laravel
+                Realizado por Matthew Farrell Rovira
             </a>
         </div>
     </div>

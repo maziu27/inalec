@@ -50,7 +50,7 @@
         {{-- proyecto 3 --}}
         <div
             class="max-w-sm w-80 text-center mb-10 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow   overflow-hidden">
-            <img src="{{ asset('images/imagenesproyectos/esferas-gas.jpg') }}" alt="revamping planta cepsa"
+            <img src="{{ asset('images/imagenesproyectos/esferas-gas.jpg') }}" alt="Logica de control para esferas de ga"
                 class="w-full h-60 object-cover mb-4 rounded-t-2xl">
 
             <div class="px-6 pb-6">
