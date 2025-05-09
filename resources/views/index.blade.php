@@ -15,7 +15,7 @@
     </div>
 
     <!-- Sección inferior con el resto del contenido -->
-    <div class="w-full bg-cover bg-center text-white font-bold px-4 py-20">
+    <div class="w-full bg-cover bg-center text-white  px-4 py-20">
 
         <div class="max-w-4xl text-xl text-justify mx-auto space-y-10">
             <p class="mb-10" data-aos="fade-up">
