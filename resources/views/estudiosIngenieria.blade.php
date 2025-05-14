@@ -50,7 +50,7 @@
         {{-- proyecto 3 --}}
         <div
             class="max-w-sm w-80 text-center mb-10 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow   overflow-hidden">
-            <img src="{{ asset('images/imagenesproyectos/esferas-gas.jpg') }}" alt="Logica de control para esferas de ga"
+            <img src="{{ asset('images/imagenesproyectos/esferasgas-2.jpg') }}" alt="Logica de control para esferas de ga"
                 class="w-full h-60 object-cover mb-4 rounded-t-2xl">
 
             <div class="px-6 pb-6">
@@ -75,14 +75,14 @@
         
             <div class="px-6 pb-6">
                 <h3 class="text-lg font-bold text-sky-700 mb-1 hover:underline transition">
-                    <a href="{{ route('logica-control-esfera') }}">
+                    <a href="{{ route('mejoras-alumbrado') }}">
                         Requisición de montaje para mejoras en el alumbrado en Bioenergía San Roque, Atlas Ceuta y CEPSA Alcalá de Henares
                     </a>
                 </h3>
                 <p class="text-sm text-gray-600 mb-4 pb-5">
                     Abordamos las requisiciones de montaje para las mejoras de alumbrado en las plantas de Bioenergía San Roque, Atlas Ceuta y CEPSA Alcalá de Henares.
                 </p>
-                <a href="{{ route('logica-control-esfera') }}"
+                <a href="{{ route('mejoras-alumbrado') }}"
                     class="inline-block bg-[rgb(0,176,243)] hover:bg-sky-600 text-white text-sm font-semibold py-2 px-5 rounded-full transition">
                     Ver más
                 </a>

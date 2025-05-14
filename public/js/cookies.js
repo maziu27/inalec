@@ -58,7 +58,7 @@ function getCookie(name) {
     return null;
 }
 
-// Mejorar seguridad al establecer la cookie
+// Mejora de seguridad al establecer cookies desde JavaScript
 function setCookie(name, value, days = 365) {
     const date = new Date();
     date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));

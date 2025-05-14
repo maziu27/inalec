@@ -35,10 +35,7 @@ Route::view('/otras-areas', 'otrasareas')->name('otrasareas');
 |--------------------------------------------------------------------------
 */
 
-// Route::prefix('sostenibilidad')->group(function () {
-//     Route::view('/compensacion-Navalacruz', 'proyectos.compensacion-navalcruz')
-//         ->name('compensacion-Navalacruz');
-// });
+
 
 Route::prefix('instrumentacion')->group(function () {
     Route::view('/revamp-cepsa', 'proyectos.revamp-cepsa')
@@ -59,7 +56,9 @@ Route::prefix('estudiosIngenieria')->group(function () {
         ->name('logica-control-esfera');
     
     // proyecto 4 de estudios de ingenieria
-
+    Route::view('/mejoras-alumbrado', 'proyectos.estudioIngenieria.mejoras-alumbrado-bio')
+        ->name('mejoras-alumbrado');
+    
 });
 /*
 |--------------------------------------------------------------------------

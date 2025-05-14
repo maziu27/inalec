@@ -5,19 +5,19 @@
         Protocolos de actuación de seguridad en CEPSA Química
     </h1>
 
-    <div class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col md:flex-row gap-8 items-center">
-        <div class="md:w-1/2 w-full">
+    <div class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col gap-8">
+        <div class="w-full">
             <img 
                 src="{{ asset('images/imagenesproyectos/cepsa-quimica.jpg') }}" 
                 alt="Protocolos de seguridad CEPSA Química" 
-                class="w-full h-auto rounded-xl object-cover"
+                class="w-full h-full max-h-[500px] object-cover rounded-xl"
             >
         </div>
-
-        <div class="md:w-1/2 lg:w-full">
+    
+        <div class="w-full">
             <div class="text-lg leading-relaxed text-gray-700 space-y-6">
                 <p>
-                    En INALEC, la seguridad de los procesos industriales es uno de los pilares fundamentales de nuestro trabajo. Por ello, asumimos con gran responsabilidad la redacción de los protocolos de actuación de seguridad para las plantas de CEPSA Química Puente Mayorga. Este proyecto supuso un reto técnico de primer nivel que abordamos combinando nuestra experiencia en ingeniería eléctrica, instrumentación y automatización de procesos.
+                    En INALEC, la seguridad de los procesos industriales es uno de los pilares fundamentales de nuestro trabajo. Por ello, asumimos con gran responsabilidad la redacción de los protocolos de actuación de seguridad para las plantas de <b>CEPSA Química Puente Mayorga</b>.<br> Este proyecto supuso un reto técnico de primer nivel que abordamos combinando nuestra experiencia en ingeniería eléctrica, instrumentación y automatización de procesos.
                 </p>
 
                 <p>

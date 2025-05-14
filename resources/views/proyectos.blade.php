@@ -6,14 +6,13 @@
     <div id="text" class="text-lg text-center flex justify-center mb-16 px-4">
         <p class="max-w-4xl leading-relaxed">
             Realizamos todo tipo de instalaciones eléctricas y de instrumentación industrial, realizando proyectos,
-            canalizaciones, CCM´s cuadros de distribución, instalaciones neumáticas, instalaciones de procesos, etc.
-            Nos especializamos en industria petroquímica, y estamos muy concienciados con la prevención de accidentes laborales,
-            la calidad y fiabilidad de nuestro trabajo.
+            canalizaciones, CCM´s cuadros de distribución, instalaciones neumáticas e instalaciones de procesos.
+            Nos especializamos en industria petroquímica, y estamos muy concienciados con la prevención de accidentes laborales, la calidad y fiabilidad de nuestro trabajo.
         </p>
     </div>
 
     <!-- Responsive grid layout -->
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 justify-items-center px-4 mb-16 max-w-screen-xl mx-auto">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 justify-items-center px-4 mb-16 max-w-screen-xl mx-auto">
 
         <a href="{{ route('estudiosIngenieria') }}" class="group w-full max-w-sm hover:scale-105 transition-transform text-center">
             <div class="bg-white shadow-lg rounded-lg p-4">
