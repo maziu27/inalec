@@ -2,7 +2,7 @@
 
 @section('content')
     <h1 class="text-6xl font-bold text-center mb-8 mt-10 text-[rgb(0,176,243)]">Documentos</h1>
-    <h2 class="text-2xl font-bold text-center mb-15 mt-10 text-[rgb(0,176,243)]">En esta sección podrás encontrar documentos de interés y las certificaciones que tiene nuestra empresa.</h2>
+    <h2 class="text-2xl text-center mb-15 mt-10 text-[rgb(0,176,243)]">En esta sección podrás encontrar documentos de interés y las certificaciones que tiene nuestra empresa.</h2>
 
 
     <div class="flex justify-center gap-10 mb-16 flex-wrap">

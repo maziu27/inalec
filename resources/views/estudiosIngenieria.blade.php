@@ -29,7 +29,7 @@
         {{-- proyecto 2 --}}
         <div
             class="max-w-sm w-80 text-center mb-10 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-200 overflow-hidden">
-            <img src="{{ asset('images/imagenesproyectos/indorama-san-roque.webp') }}" alt="estudio fotovoltaico indorama"
+            <img src="{{ asset('images/imagenesproyectos/indorama-san-roque.webp') }}" alt="Estudio fotovoltaico Indorama"
                 class="w-full h-60 object-cover mb-4 rounded-t-2xl">
 
             <div class="px-6 pb-6">
@@ -50,7 +50,7 @@
         {{-- proyecto 3 --}}
         <div
             class="max-w-sm w-80 text-center mb-10 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow   overflow-hidden">
-            <img src="{{ asset('images/imagenesproyectos/esferasgas-2.jpg') }}" alt="Logica de control para esferas de ga"
+            <img src="{{ asset('images/imagenesproyectos/esferasgas-2.jpg') }}" alt="Logica de control para esferas de gas"
                 class="w-full h-60 object-cover mb-4 rounded-t-2xl">
 
             <div class="px-6 pb-6">
@@ -70,7 +70,7 @@
 
         {{-- proyecto 4 --}}
         <div class="max-w-sm w-80 text-center mb-10 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
-            <img src="{{ asset('images/imagenesproyectos/bioenergia-san-roque.jpg') }}" alt="revamping planta cepsa"
+            <img src="{{ asset('images/imagenesproyectos/bioenergia-san-roque.jpg') }}" alt="Bioenergía San Roque"
                 class="w-full h-60 object-cover mb-4 rounded-t-2xl">
         
             <div class="px-6 pb-6">

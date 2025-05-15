@@ -2,7 +2,7 @@
 @section('content')
 <section class="max-w-6xl mx-auto px-4 py-12">
     <h1 class="text-4xl md:text-6xl font-bold text-center text-[rgb(0,176,243)] mb-10">
-        Redacción de lógica de control de compresores en esferas de gas
+        Lógica de control de compresores en esferas de gas
     </h1>
 
     <div class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col gap-8">
