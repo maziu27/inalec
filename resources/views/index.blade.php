@@ -59,7 +59,8 @@
                 </p>
             </div>
 
-            <h1 class="text-center text-4xl mb-15" data-aos="fade-up" data-aos-delay="100"><a href="{{ route('proyectos') }}">Nuestros proyectos</a></h1>
+            <h1 class="text-center text-4xl mb-3" data-aos="fade-up" data-aos-delay="100"><a href="{{ route('proyectos') }}">Nuestros proyectos</a></h1>
+            <p class="text-center text-2xl mb-15" data-aos="fade-up" data-aos-delay="100"><a href="{{ route('proyectos') }}">Clic aquí</a></p>
 
             <!-- Bloques de imagen + texto -->
             <div class="flex flex-col md:flex-row items-center gap-6 mb-20" data-aos="fade-right" data-aos-delay="100">
@@ -67,7 +68,7 @@
                 <img class="w-full md:w-1/2 h-48 object-cover rounded shadow-lg"
                      src="{{ asset('images/imagenesproyectos/cepsa-quimica.jpg') }}" alt="Refinería Cepsa">
                 <p class="text-white text-justify text-base md:text-lg max-w-lg px-2">
-                    hola hola hola
+                    Ingeniería eléctrica
                 </p>
             </div>
 
@@ -75,7 +76,7 @@
                 <img class="w-full md:w-1/2 h-48 object-cover rounded shadow-lg"
                      src="{{ asset('images/imagenesproyectos/revamping-planta-cepsa.jpg') }}" alt="Revamp planta cepsa">
                 <p class="text-white text-justify text-base md:text-lg max-w-lg px-2">
-                    holaa holaa holaa
+                    Llave en mano
                 </p>
             </div>
 
@@ -83,7 +84,7 @@
                 <img class="w-full md:w-1/2 h-48 object-cover rounded shadow-lg"
                      src="{{ asset('images/imagenesproyectos/refineria-cepsa-puerto-algeciras.jpg') }}" alt="Refinería Cepsa">
                 <p class="text-white text-justify text-base md:text-lg max-w-lg px-2">
-                    hola hola hola
+                    Instrumentación
                 </p>
             </div>
 
@@ -91,7 +92,7 @@
                 <img class="w-full md:w-1/2 h-48 object-cover rounded shadow-lg"
                      src="{{ asset('images/imagenesproyectos/revamping-planta-cepsa.jpg') }}" alt="Revamp planta cepsa">
                 <p class="text-white text-justify text-base md:text-lg max-w-lg px-2">
-                    holaa holaa holaa
+                    Electricidad
                 </p>
             </div>
 
@@ -99,7 +100,7 @@
                 <img class="w-full md:w-1/2 h-48 object-cover rounded shadow-lg"
                      src="{{ asset('images/imagenesproyectos/refineria-cepsa-puerto-algeciras.jpg') }}" alt="Refinería Cepsa">
                 <p class="text-white text-justify text-base md:text-lg max-w-lg px-2">
-                    hola hola hola
+                    Otras áreas
                 </p>
             </div>
 

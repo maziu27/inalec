@@ -2,7 +2,7 @@
 
 @section('content')
 <h1 class="text-6xl md:text-4xl l:text-3xl font-bold text-center m-4 text-[rgb(0,176,243)]">
-    Nuestro pólitica de prevención
+    Nuestra pólitica de prevención
 </h1>
 
 <div class="flex items-center justify-center min-h-screen px-4">
