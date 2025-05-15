@@ -35,7 +35,7 @@
                     </ul>
                 </div>
 
-                <p>
+                <p class="text-sky-700 font-semibold">
                     Tras esta fase de diagnóstico detallado, procedimos a:
                 </p>
 

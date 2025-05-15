@@ -7,88 +7,110 @@
         {{-- proyecto 1 --}}
         <div
             class="max-w-sm w-80 text-center mb-10 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-200 overflow-hidden">
-            <img src="{{ asset('images/imagenesproyectos/cepsa-quimica.jpg') }}" alt="revamping planta cepsa"
-                class="w-full h-60 object-cover mb-4 rounded-t-2xl">
+            <a href="{{ route('protocolo-seguridad-cepsa') }}">
+                <img src="{{ asset('images/imagenesproyectos/cepsa-quimica.jpg') }}" alt="revamping planta cepsa"
+                    class="w-full h-60 object-cover mb-4 rounded-t-2xl">
 
-            <div class="px-6 pb-6">
-                <h3 class="text-lg font-bold text-sky-700 mb-1 hover:underline transition ">
-                    <a href="{{ route('protocolo-seguridad-cepsa') }}">Protocolos de actuación en prevención de riesgos y de seguridad industrial en CEPSA Química
+                <div class="px-6 pb-6">
+                    <h3 class="text-lg font-bold text-sky-700 mb-1 hover:underline transition ">
+                        <a href="{{ route('protocolo-seguridad-cepsa') }}">Protocolos de actuación en prevención de riesgos
+                            y de
+                            seguridad industrial en CEPSA Química
+                        </a>
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-4 pb-4">
+                        En INALEC, garantizamos la seguridad de los procesos industriales a través de la redacción de
+                        protocolos
+                        de
+                        actuación para las plantas de CEPSA Química Puente Mayorga.
+                    </p>
+                    <a href="{{ route('protocolo-seguridad-cepsa') }}"
+                        class="inline-block bg-[rgb(0,176,243)] hover:bg-sky-600 text-white text-sm font-semibold py-2 px-5 rounded-full transition">
+                        Ver más
                     </a>
-                </h3>
-                <p class="text-sm text-gray-600 mb-4 pb-4">
-                    En INALEC, garantizamos la seguridad de los procesos industriales a través de la redacción de protocolos de
-                    actuación para las plantas de CEPSA Química Puente Mayorga.
-                </p>
-                <a href="{{ route('protocolo-seguridad-cepsa') }}"
-                    class="inline-block bg-[rgb(0,176,243)] hover:bg-sky-600 text-white text-sm font-semibold py-2 px-5 rounded-full transition">
-                    Ver más
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
 
         {{-- proyecto 2 --}}
         <div
             class="max-w-sm w-80 text-center mb-10 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-200 overflow-hidden">
-            <img src="{{ asset('images/imagenesproyectos/indorama-san-roque.webp') }}" alt="Estudio fotovoltaico Indorama"
-                class="w-full h-60 object-cover mb-4 rounded-t-2xl">
+            <a href="{{ route('estudio-fotovoltaico')}}">
+                <img src="{{ asset('images/imagenesproyectos/indorama-san-roque.webp') }}"
+                    alt="Estudio fotovoltaico Indorama" class="w-full h-60 object-cover mb-4 rounded-t-2xl">
 
-            <div class="px-6 pb-6">
-                <h3 class="text-lg font-bold text-sky-700 mb-1 hover:underline transition">
-                    <a href="{{ route('estudio-fotovoltaico')}}">Estudio fotovoltaico para el volcado de energía a diferentes subestaciones en las plantas de Indorama
+                <div class="px-6 pb-6">
+                    <h3 class="text-lg font-bold text-sky-700 mb-1 hover:underline transition">
+                        <a href="{{ route('estudio-fotovoltaico')}}">Estudio fotovoltaico para el volcado de energía a
+                            diferentes subestaciones en las plantas de Indorama
+                        </a>
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-4">
+                        En INALEC, nos comprometemos con impulsar la transición energética en el sector industrial,
+                        ofreciendo
+                        soluciones que combinan eficiencia, sostenibilidad y fiabilidad.
+                    </p>
+                    <a href="{{ route('estudio-fotovoltaico')}}"
+                        class="inline-block bg-[rgb(0,176,243)] hover:bg-sky-600 text-white text-sm font-semibold py-2 px-5 rounded-full transition">
+                        Ver más
                     </a>
-                </h3>
-                <p class="text-sm text-gray-600 mb-4">
-                    En INALEC, nos comprometemos con impulsar la transición energética en el sector industrial, ofreciendo soluciones que combinan eficiencia, sostenibilidad y fiabilidad. 
-                </p>
-                <a href="{{ route('estudio-fotovoltaico')}}"
-                    class="inline-block bg-[rgb(0,176,243)] hover:bg-sky-600 text-white text-sm font-semibold py-2 px-5 rounded-full transition">
-                    Ver más
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
 
         {{-- proyecto 3 --}}
         <div
             class="max-w-sm w-80 text-center mb-10 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow   overflow-hidden">
-            <img src="{{ asset('images/imagenesproyectos/esferasgas-2.jpg') }}" alt="Logica de control para esferas de gas"
-                class="w-full h-60 object-cover mb-4 rounded-t-2xl">
+            <a href="{{ route('logica-control-esfera') }}">
+                <img src="{{ asset('images/imagenesproyectos/esferasgas-2.jpg') }}"
+                    alt="Logica de control para esferas de gas" class="w-full h-60 object-cover mb-4 rounded-t-2xl">
 
-            <div class="px-6 pb-6">
-                <h3 class="text-lg font-bold text-sky-700 mb-8 hover:underline transition">
-                    <a href="{{ route('logica-control-esfera') }}">Lógica de Control para la Operación de Compresores de Almacenamiento en Esferas de Gas
+                <div class="px-6 pb-6">
+                    <h3 class="text-lg font-bold text-sky-700 mb-8 hover:underline transition">
+                        <a href="{{ route('logica-control-esfera') }}">Lógica de Control para la Operación de Compresores de
+                            Almacenamiento en Esferas de Gas
+                        </a>
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-4 pb-5">
+                        Lógica de actuación independiente para cinco compresores, gobernados por las señales de tres
+                        transmisores de nivel de alta, garantizando una operación segura y eficiente.
+                    </p>
+                    <a href="{{ route('logica-control-esfera') }}"
+                        class="inline-block bg-[rgb(0,176,243)] hover:bg-sky-600 text-white text-sm font-semibold py-2 px-5 rounded-full transition">
+                        Ver más
                     </a>
-                </h3>
-                <p class="text-sm text-gray-600 mb-4 pb-5">
-                    Lógica de actuación independiente para cinco compresores, gobernados por las señales de tres transmisores de nivel de alta, garantizando una operación segura y eficiente.
-                </p>
-                <a href="{{ route('logica-control-esfera') }}"
-                    class="inline-block bg-[rgb(0,176,243)] hover:bg-sky-600 text-white text-sm font-semibold py-2 px-5 rounded-full transition">
-                    Ver más
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
 
         {{-- proyecto 4 --}}
-        <div class="max-w-sm w-80 text-center mb-10 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
-            <img src="{{ asset('images/imagenesproyectos/bioenergia-san-roque.jpg') }}" alt="Bioenergía San Roque"
-                class="w-full h-60 object-cover mb-4 rounded-t-2xl">
-        
-            <div class="px-6 pb-6">
-                <h3 class="text-lg font-bold text-sky-700 mb-1 hover:underline transition">
-                    <a href="{{ route('mejoras-alumbrado') }}">
-                        Requisición de montaje para mejoras en el alumbrado en Bioenergía San Roque, Atlas Ceuta y CEPSA Alcalá de Henares
+        <div
+            class="max-w-sm w-80 text-center mb-10 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
+            <a href="{{ route('mejoras-alumbrado-bio') }}">
+                <img src="{{ asset('images/imagenesproyectos/bioenergia-san-roque.jpg') }}" alt="Bioenergía San Roque"
+                    class="w-full h-60 object-cover mb-4 rounded-t-2xl">
+
+                <div class="px-6 pb-6">
+                    <h3 class="text-lg font-bold text-sky-700 mb-1 hover:underline transition">
+                        <a href="{{ route('mejoras-alumbrado-bio') }}">
+                            Requisición de montaje para mejorar el alumbrado en Bioenergía San Roque, Atlas Ceuta y CEPSA
+                            Alcalá
+                            de Henares
+                        </a>
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-4 pb-5">
+                        Abordamos las requisiciones de montaje para las mejoras de alumbrado en las plantas de Bioenergía
+                        San
+                        Roque, Atlas Ceuta y CEPSA Alcalá de Henares.
+                    </p>
+                    <a href="{{ route('mejoras-alumbrado-bio') }}"
+                        class="inline-block bg-[rgb(0,176,243)] hover:bg-sky-600 text-white text-sm font-semibold py-2 px-5 rounded-full transition">
+                        Ver más
                     </a>
-                </h3>
-                <p class="text-sm text-gray-600 mb-4 pb-5">
-                    Abordamos las requisiciones de montaje para las mejoras de alumbrado en las plantas de Bioenergía San Roque, Atlas Ceuta y CEPSA Alcalá de Henares.
-                </p>
-                <a href="{{ route('mejoras-alumbrado') }}"
-                    class="inline-block bg-[rgb(0,176,243)] hover:bg-sky-600 text-white text-sm font-semibold py-2 px-5 rounded-full transition">
-                    Ver más
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
-        
+
     </div>
 
     <!-- Contenedor para los botones de navegación -->

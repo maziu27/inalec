@@ -36,12 +36,6 @@ Route::view('/otras-areas', 'otrasareas')->name('otrasareas');
 */
 
 
-
-Route::prefix('instrumentacion')->group(function () {
-    Route::view('/revamp-cepsa', 'proyectos.revamp-cepsa')
-        ->name('revamp-cepsa');
-});
-
 Route::prefix('estudiosIngenieria')->group(function () {
     // proyecto 1 de estudios de ingenieria
     Route::view('/protocolo-seguridad-cepsa', 'proyectos.estudioIngenieria.protocolo-cepsa-quimica')
@@ -56,10 +50,28 @@ Route::prefix('estudiosIngenieria')->group(function () {
         ->name('logica-control-esfera');
     
     // proyecto 4 de estudios de ingenieria
-    Route::view('/mejoras-alumbrado', 'proyectos.estudioIngenieria.mejoras-alumbrado-bio')
-        ->name('mejoras-alumbrado');
+    Route::view('/mejoras-alumbrado-bio', 'proyectos.estudioIngenieria.mejoras-alumbrado-bio')
+        ->name('mejoras-alumbrado-bio');
     
 });
+
+Route::prefix('llave-en-mano')->group(function () {
+    // proyecto 1 de llave en mano
+    Route::view('/montaje-cepsa', 'proyectos.llaveEnMano.montaje-cepsa')
+        ->name('montaje-cepsa');
+
+    // proyecto 2 de llave en mano
+    Route::view('/proyecto-llave-en-mano-2', 'proyectos.llaveEnMano.proyecto-llave-en-mano-2')
+        ->name('proyecto-llave-en-mano-2');
+});
+
+
+
+Route::prefix('instrumentacion')->group(function () {
+  Route::view('/revamp-cepsa', '#')
+      ->name('revamp-cepsa');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Certificaciones

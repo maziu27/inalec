@@ -2,13 +2,13 @@
 @section('content')
 <section class="max-w-6xl mx-auto px-4 py-12">
     <h1 class="text-4xl md:text-6xl font-bold text-center text-[rgb(0,176,243)] mb-10">
-        Redacción de requisición de montaje para mejoras en el alumbrado en Bioenergía San Roque, Atlas Ceuta y CEPSA Alcalá de Henares
+        Requisición de montaje para mejorar el alumbrado en Bioenergía San Roque, Atlas Ceuta y CEPSA Alcalá de Henares
     </h1>
 
     <div class="bg-white rounded-2xl shadow-lg p-6 md:p-10 flex flex-col gap-8">
         <div class="w-full">
             <img 
-                src="{{ asset('images/imagenesproyectos/esferasgas-2.jpg') }}" 
+                src="{{ asset('images/imagenesproyectos/bioenergia-san-roque.jpg') }}" 
                 alt="Requisición de montaje de alumbrado industrial" 
                 class="w-full h-full max-h-[500px] object-cover rounded-xl"
             >

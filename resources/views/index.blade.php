@@ -24,7 +24,7 @@
                 seguridad, la especialización y la calidad son factores clave para el correcto funcionamiento de las plantas.
             </p>
 
-            <h1 class="text-center mb-15" data-aos="fade-up" data-aos-delay="100">¿Qué hacemos?</h1>
+            <h1 class="text-center mb-15 text-4xl" data-aos="fade-up" data-aos-delay="100">¿Qué hacemos?</h1>
 
             <!-- Bloques de imagen + texto -->
             <div class="flex flex-col md:flex-row items-center gap-6 mb-20" data-aos="fade-right" data-aos-delay="100">
@@ -56,6 +56,50 @@
                      src="{{ asset('images/imagenesproyectos/revamping-planta-cepsa.jpg') }}" alt="Revamp planta cepsa">
                 <p class="text-white text-justify text-base md:text-lg max-w-lg px-2">
                     holaa holaa holaa
+                </p>
+            </div>
+
+            <h1 class="text-center text-4xl mb-15" data-aos="fade-up" data-aos-delay="100"><a href="{{ route('proyectos') }}">Nuestros proyectos</a></h1>
+
+            <!-- Bloques de imagen + texto -->
+            <div class="flex flex-col md:flex-row items-center gap-6 mb-20" data-aos="fade-right" data-aos-delay="100">
+            
+                <img class="w-full md:w-1/2 h-48 object-cover rounded shadow-lg"
+                     src="{{ asset('images/imagenesproyectos/cepsa-quimica.jpg') }}" alt="Refinería Cepsa">
+                <p class="text-white text-justify text-base md:text-lg max-w-lg px-2">
+                    hola hola hola
+                </p>
+            </div>
+
+            <div class="flex flex-col md:flex-row-reverse items-center gap-6 mb-20" data-aos="fade-left" data-aos-delay="200">
+                <img class="w-full md:w-1/2 h-48 object-cover rounded shadow-lg"
+                     src="{{ asset('images/imagenesproyectos/revamping-planta-cepsa.jpg') }}" alt="Revamp planta cepsa">
+                <p class="text-white text-justify text-base md:text-lg max-w-lg px-2">
+                    holaa holaa holaa
+                </p>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center gap-6 mb-20" data-aos="fade-right" data-aos-delay="100">
+                <img class="w-full md:w-1/2 h-48 object-cover rounded shadow-lg"
+                     src="{{ asset('images/imagenesproyectos/refineria-cepsa-puerto-algeciras.jpg') }}" alt="Refinería Cepsa">
+                <p class="text-white text-justify text-base md:text-lg max-w-lg px-2">
+                    hola hola hola
+                </p>
+            </div>
+
+            <div class="flex flex-col md:flex-row-reverse items-center gap-6 mb-20" data-aos="fade-left" data-aos-delay="200">
+                <img class="w-full md:w-1/2 h-48 object-cover rounded shadow-lg"
+                     src="{{ asset('images/imagenesproyectos/revamping-planta-cepsa.jpg') }}" alt="Revamp planta cepsa">
+                <p class="text-white text-justify text-base md:text-lg max-w-lg px-2">
+                    holaa holaa holaa
+                </p>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center gap-6 mb-20" data-aos="fade-right" data-aos-delay="100">
+                <img class="w-full md:w-1/2 h-48 object-cover rounded shadow-lg"
+                     src="{{ asset('images/imagenesproyectos/refineria-cepsa-puerto-algeciras.jpg') }}" alt="Refinería Cepsa">
+                <p class="text-white text-justify text-base md:text-lg max-w-lg px-2">
+                    hola hola hola
                 </p>
             </div>
 

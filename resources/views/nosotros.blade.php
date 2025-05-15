@@ -4,7 +4,7 @@
     <section class="max-w-6xl mx-auto px-4 py-10 text-center">
         <h1 class="text-6xl font-bold text-center mb-8 text-[rgb(0,176,243)]">Sobre Nosotros</h1>
 
-        <div class="max-w-4xl mx-auto p-6">
+        <div class="max-w-4xl mx-auto pb-6 ">
             <p class="text-lg mb-4">
                 Contamos con un equipo altamente cualificado y comprometido con los valores de nuestra empresa, enfocados en
                 ofrecer un servicio de <strong>excelencia</strong> y garantizar la plena satisfacción de nuestros clientes.
@@ -17,8 +17,8 @@
             <p class="text-lg mb-4">
                 También hemos prestado nuestros servicios a compañías como <strong>REPSOL</strong>,
                 <strong>NATURGY</strong>, <strong>INERCO</strong>, <strong>HONEYWELL</strong>, <strong>CT
-                    INGENIEROS</strong>, <strong>YOKOGAWA</strong>, <strong>ROTORK</strong>, <strong>AITESA</strong>,
-                <strong>SGS</strong>, <strong>JOHN CRANE</strong> y otras entidades más pequeñas, a quienes atendemos con la
+                INGENIEROS</strong>, <strong>YOKOGAWA</strong>, <strong>ROTORK</strong>, <strong>AITESA</strong>,
+                <strong>SGS</strong>, <strong>JOHN CRANE</strong> y otras entidades, a quienes atendemos con la
                 misma dedicación, adaptándonos a sus necesidades y priorizando siempre la <strong>seguridad</strong> y la
                 <strong>calidad</strong> en cada uno de nuestros trabajos.
             </p>
